@@ -1,2 +1,2 @@
-# my-framework-css
-Componentes para facilitar trabalhos
+# MyFramework CSS `Em Desenvolvimento`
+Mini Framework com alguns componentes criados para facilitar futuros trabalhos.
