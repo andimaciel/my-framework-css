@@ -2,6 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 /* ==================================== 
    ============ BOTÕES BASE ===========
    ==================================== */
@@ -89,8 +90,8 @@ body {
 
 /*  Link  */
 .bttn-link {
-    background: #f8f8f8;
-    color: #777;
+    background: transparent;
+    color: #999;
     border-color: transparent;
     box-shadow: 0 0 0 transparent;
     text-decoration: none;
@@ -181,4 +182,10 @@ body {
 /* ============ Formato dos botões ============== */
 .-circle {
     border-radius: 50px;
+}
+
+/* ============ Botões com largura máxima ============== */
+.-fluid {
+    display: block;
+    width: 100%;
 }
