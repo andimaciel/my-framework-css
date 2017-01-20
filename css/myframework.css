@@ -90,9 +90,7 @@ body {
 
 /*  Link  */
 .bttn-link {
-    background: transparent;
     color: #999;
-    border-color: transparent;
     box-shadow: 0 0 0 transparent;
     text-decoration: none;
 }
@@ -103,61 +101,45 @@ body {
 
 /* ============ Botões com borda ============== */
 /*  OUTLINE - BLUE  */
-.bttn-outline {
-    display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    background: transparent;
-    border: 1px solid transparent;
-    font-size: 14px;
-    border-radius: 2px;
-    cursor: pointer;
-    padding: 6px 12px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
-    transition: 0.1s linear;
-    outline: none;
-}
-
-.bttn-outline.bttn-primary {
+.outline-primary {
     background: #fff;
     border-color:#2962FF;
     color: #2962FF;
 }
-.bttn-outline.bttn-primary:hover {
+.outline-primary:hover {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 /*  OUTLINE - ALERT  */
-.bttn-outline.bttn-alert {
+.outline-alert {
     background: #fff;
     border-color: #FBC02D;
     color: #FBC02D;
 
 }
-.bttn-outline.bttn-alert:hover {
+.outline-alert:hover {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 /*  OUTLINE - DANGER  */
-.bttn-outline.bttn-danger {
+.outline-danger {
     background: #fff;
     border-color: #F44336;
     color: #F44336;
 
 }
-.bttn-outline.bttn-danger:hover {
+.outline-danger:hover {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 /*  OUTLINE - INFO  */
-.bttn-outline.bttn-info {
+.outline-info {
     background: #fff;
     border-color: #03A9F4;
     color: #03A9F4;
 
 }
-.bttn-outline.bttn-info:hover {
+.outline-info:hover {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
